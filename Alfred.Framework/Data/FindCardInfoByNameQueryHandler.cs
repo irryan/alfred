@@ -13,14 +13,25 @@ namespace Alfred.Framework.Data
 {
     namespace MtgApi.Models
     {
-        abstract class ResponseBase
+        class Query
         {
-            public string Query { get; set; }
+            public string Command { get; set; }
+            public string Key { get; set; }
+            public string Conditional { get; set; }
+            public string Value { get; set; }
         }
 
-        class CardInformationResponse
+        abstract class ResponseBase
+        {
+            public Query[] Query { get; set; }
+        }
+
+        class CardInformationResponse : ResponseBase
         {
             public IEnumerable<CardInfo> Cards { get; set; }
+            public int Total { get; set; }
+            public int PerPage { get; set; }
+            public object Links { get; set; }
         }
 
         class ForeignName
