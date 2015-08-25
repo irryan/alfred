@@ -5,11 +5,11 @@
     <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{96E3BEE4-23D8-4FA4-9019-48ECB32DA7C2}</ProjectGuid>
+    <ProjectGuid>{6F8747EC-8ACA-40CA-8159-59EFDBD67453}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Alfred.Framework</RootNamespace>
-    <AssemblyName>Alfred.Framework</AssemblyName>
+    <RootNamespace>MtgApi</RootNamespace>
+    <AssemblyName>MtgApi</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -34,34 +34,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Data\DesignFindCardInfoByNameQueryHandler.cs" />
-    <Compile Include="Data\FindCardInfoByNameQuery.cs" />
-    <Compile Include="Data\FindCardInfoByNameQueryHandler.cs" />
-    <Compile Include="Data\IFindCardInfoByNameQueryHandler.cs" />
-    <Compile Include="Data\IQuery.cs" />
-    <Compile Include="Data\IQueryHandler.cs" />
-    <Compile Include="Extensions\UriExtensions.cs" />
-    <Compile Include="Models\CardInfo.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\portable-net45+wp80+win8+wpa81+dnxcore50\Newtonsoft.Json.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
+    <!-- A reference to the entire .NET Framework is automatically included -->
   </ItemGroup>
   <ItemGroup>
     <TargetPlatform Include="Windows, Version=8.1" />
     <TargetPlatform Include="WindowsPhoneApp, Version=8.1" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MtgApi\MtgApi.csproj">
-      <Project>{6f8747ec-8aca-40ca-8159-59efdbd67453}</Project>
-      <Name>MtgApi</Name>
-    </ProjectReference>
+    <Compile Include="Models\ResponseObjects.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

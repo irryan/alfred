@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alfred.WindowsPhone", "Alfr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alfred.Framework", "Alfred.Framework\Alfred.Framework.csproj", "{96E3BEE4-23D8-4FA4-9019-48ECB32DA7C2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MtgApi", "MtgApi\MtgApi.csproj", "{6F8747EC-8ACA-40CA-8159-59EFDBD67453}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Alfred\Alfred.Shared\Alfred.Shared.projitems*{8b34dd04-bd6f-4f58-bbdf-eced0b1a652a}*SharedItemsImports = 4
@@ -94,6 +96,22 @@ Global
 		{96E3BEE4-23D8-4FA4-9019-48ECB32DA7C2}.Release|x64.Build.0 = Release|Any CPU
 		{96E3BEE4-23D8-4FA4-9019-48ECB32DA7C2}.Release|x86.ActiveCfg = Release|Any CPU
 		{96E3BEE4-23D8-4FA4-9019-48ECB32DA7C2}.Release|x86.Build.0 = Release|Any CPU
+		{6F8747EC-8ACA-40CA-8159-59EFDBD67453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F8747EC-8ACA-40CA-8159-59EFDBD67453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F8747EC-8ACA-40CA-8159-59EFDBD67453}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{6F8747EC-8ACA-40CA-8159-59EFDBD67453}.Debug|ARM.Build.0 = Debug|Any CPU
+		{6F8747EC-8ACA-40CA-8159-59EFDBD67453}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6F8747EC-8ACA-40CA-8159-59EFDBD67453}.Debug|x64.Build.0 = Debug|Any CPU
+		{6F8747EC-8ACA-40CA-8159-59EFDBD67453}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6F8747EC-8ACA-40CA-8159-59EFDBD67453}.Debug|x86.Build.0 = Debug|Any CPU
+		{6F8747EC-8ACA-40CA-8159-59EFDBD67453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F8747EC-8ACA-40CA-8159-59EFDBD67453}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F8747EC-8ACA-40CA-8159-59EFDBD67453}.Release|ARM.ActiveCfg = Release|Any CPU
+		{6F8747EC-8ACA-40CA-8159-59EFDBD67453}.Release|ARM.Build.0 = Release|Any CPU
+		{6F8747EC-8ACA-40CA-8159-59EFDBD67453}.Release|x64.ActiveCfg = Release|Any CPU
+		{6F8747EC-8ACA-40CA-8159-59EFDBD67453}.Release|x64.Build.0 = Release|Any CPU
+		{6F8747EC-8ACA-40CA-8159-59EFDBD67453}.Release|x86.ActiveCfg = Release|Any CPU
+		{6F8747EC-8ACA-40CA-8159-59EFDBD67453}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
